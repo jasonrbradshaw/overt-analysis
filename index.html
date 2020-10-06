@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jason Richard Bradshaw</title>
+        <link rel="icon" href="images/pixComp.ico">
+        <link rel="stylesheet" href="styles/style.css">
+        <!-- WebFont Scripts -->
+        <script src="https://use.edgefonts.net/poiret-one.js"></script>
+        <!-- JavaScript Functions -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+        <script src="scripts/menuSub.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+    <div class="flip noScroll"> 
+    <div class="front">
+
+        <div class="verAlign">
+            <div id="parent" style="cursor: pointer;">    
+                <h2 class="grow" onclick="overtDrop()">Overt Analysis</h2>
+            </div>
+                    <p id="1"></p>
+                    <p id="2"></p>
+                <h2 class="grow"><a href="CurriculumVitae.html">Curriculum Vitae & Resume</a></h2>
+                <div style="cursor: pointer;">
+                <h2 class="grow" onclick="webDrop()">Web Development & Coding</h2>
+                </div>
+                    <p id="3"></p>
+                    <p id="4"></p>
+                <button class="btn btn-success" id="flip-btn"><h2 class="grow"><p>About</p></h2></button>
+        </div>
+    </div>
+
+    <div class="back">
+        
+            <p>Jason Richard Bradshaw holds a Bachelors Degree in Professional Communications from MacEwan University and is a Digital Humanities graduate specializing in Philosophy at the University of Alberta. This portfolio site highlights his accomplishments, as well as showcases his interests in multimedia design, web development, visualization, writing and research. If you have questions about any of the projects, please feel free to reach out via the contact information provided. Thank you.</p><br><br><br>
+            <button class="btn btn-danger" id="unflip-btn"><h2 class="grow"><p>Back</p></h2></button>
+    
+    </div> 
+    </div>
+        
+        <div id="footer">
+            <br>
+            <p class="information">Jason Richard Bradshaw<br> Toronto, Ontario<br>jasonrichardbradshaw@gmail.com
+            <br> 2020</p>    
+            <a href="https://www.linkedin.com/in/jason-bradshaw-2264b0112/" target="_blank"><img src="images/linkedin.png" class="link" alt="LinkedIn Logo"></a> 
+        </div>
+        </div>
+
+
+
+</body>
+</html>
+
+<script src="scripts/flip.js"></script>
