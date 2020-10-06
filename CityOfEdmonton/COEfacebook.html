@@ -1,0 +1,67 @@
+
+<html>
+    <head>
+        <link rel="icon" href="../images/COE.ico">
+        <title>COE Facebook</title>
+        <!-- CSS STYLE/NO SCROLL BAR/AUTO SCROLL -->
+        <style>
+        ::-webkit-scrollbar {
+            width: 0px;  /* remove scrollbar space */
+            background: transparent;  /* optional: just make scrollbar invisible */
+        }
+        
+        #wrap { 
+        	width: 500px; 
+        	margin: 0 auto; 
+        }
+        
+        /* REMOVE 000Webhost LOGO */
+        img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] 
+        {display: none;}
+        </style>
+    </head>
+<body>
+
+    <script>
+    var scroll = setInterval(function(){ window.scrollBy(0,1); }, 50);
+    </script>
+    
+    <!-- FB JS SDK -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '224467168418393',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v3.1'
+        });
+      };
+    
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+    <!-- FACEBOOK WIDGET -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <!-- ALTER LAYOUT HERE -->
+    <div id="wrap">
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcityofedmonton%2F&tabs=timeline&width=1200&height=8000&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=224467168418393" 
+    width="2400" height="8000" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_overtanalysis&amp;utm_content=footer_img"><img src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"  alt="www.000webhost.com"></a></div></body>
+
+</html>

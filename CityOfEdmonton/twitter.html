@@ -1,0 +1,37 @@
+
+<html>
+    <head>
+        <title>COE Twitter Feed</title>
+        <link rel="icon" href="../images/COE.ico">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <style>
+        ::-webkit-scrollbar {
+            width: 0px;  /* remove scrollbar space */
+            background: transparent;  /* optional: just make scrollbar invisible */
+        }
+        
+        #wrap { 
+        	width: 900px; 
+        	margin: 0 auto; 
+        }
+        
+        img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] {display: none;}
+        </style>
+    </head>
+
+<body>
+<script>
+var scroll = setInterval(function(){ window.scrollBy(0,1); }, 50);
+</script>
+
+<div id="wrap">
+<a class="twitter-timeline" 
+data-tweet-limit="10"
+data-chrome="nofooter noborders noheader noscrollbar"
+href="https://twitter.com/CityofEdmonton?ref_src=twsrc%5Etfw">Tweets by City of Edmonton</a>
+ 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_overtanalysis&amp;utm_content=footer_img"><img src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"  alt="www.000webhost.com"></a></div></body>
+</html>
