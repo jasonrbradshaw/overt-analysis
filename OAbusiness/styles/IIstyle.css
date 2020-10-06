@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+}
+
+.title {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;	
+}
+
+.header {
+	top: 0;
+	width: 100%;
+}
+
+.foreground {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/********************
+HOUSE KEEPING
+********************/
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] 
+    {display: none;
+}
+
+/************************
+*   MOBILE STYLE        *
+************************/
+@media screen and (orientation:portrait) {
+
+.foreground {
+	position: fixed;
+	width: 415%;
+	height: 90em;
+}
+    }
